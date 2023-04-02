@@ -1,0 +1,85 @@
+@media screen and (min-width: 768px) {
+	#block-responsivemenumobileicon {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	nav {
+		display: none;
+	}
+}
+
+.mm-page,
+.mm-wrapper_background body {
+  background-color: inherit;
+}
+
+.responsive-menu-toggle-icon:before,
+.responsive-menu-toggle-icon:after,
+.responsive-menu-toggle-icon span.icon {
+  background: #1c1c1c;
+}
+
+#block-responsivemenumobileicon .label {
+	display: none;
+}
+
+#block-responsivemenumobileicon .responsive-menu-toggle-icon {
+	width: 33px;
+}
+
+
+/* Main nav */
+
+ul.menu--main {
+  font-family: 'Cinzel', serif;
+  font-weight: 400;
+  color: #1c1c1c;
+}
+
+@media (min-width: 768px) {
+	.navbar-nav > li > a {
+	   padding-bottom: 10px;
+	}
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: inherit;
+  border-bottom: 5px solid transparent;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: inherit;
+  border-bottom: 5px solid #c38aeb;
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: inherit;
+  background-color: transparent;
+  border-bottom: 5px solid #845e9f;
+}
+
+
+
+/* Mobile menu */
+
+@media screen and (max-width: 767px) {
+	.navbar-header {
+		margin: 0 !important;
+	}
+	#block-title {
+		float: left;
+		text-align: left;
+		font-size: 24px;
+		line-height: 24px;
+	}
+	#block-responsivemenumobileicon {
+		float: right;
+		position: relative;
+		top: -5px;
+	}
+}

@@ -1,0 +1,232 @@
+.path-frontpage .block-blockgroup .btn {
+	font-size: 18px;
+	line-height: 18px;
+	padding: 10px 12px;
+}
+
+@media screen and (max-width: 499px) {
+	.path-frontpage .block-blockgroup .btn {
+		font-size: 14px;
+		line-height: 14px;
+	}
+}
+
+.path-frontpage .block-blockgroup .btn i {
+  margin-right: 10px;
+} 
+
+.path-frontpage .block-blockgroup .field--name-body {
+  text-align: center;
+}
+
+.path-frontpage .block-blockgroup {
+  margin: 0 -15px 0 -15px;
+  padding: 50px;
+}
+
+.path-frontpage h1.page-header {
+	display: none;
+}
+
+
+/* Block backgrounds */
+
+#block-homegroup,
+#block-followgroup,
+#block-instagramgroup,
+#block-showsgroup,
+#block-twittergroup,
+#block-facebookgroup {
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#block-homegroup   			{background-image: url('/themes/custom/durga/images/background-06.jpg');}
+#block-followgroup   		{background-image: url('/themes/custom/durga/images/legacy-04-x.jpg');}
+#block-instagramgroup   {background-image: url('/themes/custom/durga/images/legacy-04-x.jpg');}
+#block-showsgroup       {background-image: url('/themes/custom/durga/images/00000005-edit.jpg');}
+#block-twittergroup     {background-image: url('/themes/custom/durga/images/legacy-03-x.jpg');}
+#block-facebookgroup    {background-image: url('/themes/custom/durga/images/legacy-05-x.jpg');}
+
+
+
+/* Block titles */
+
+.path-frontpage h2.block-title,
+#block-followgroup h2,
+#block-instagramgroup h2,
+#block-showsgroup h2,
+#block-twittergroup h2,
+#block-facebookgroup h2 {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 42px;
+  margin: 0 0 30px 0;
+  text-shadow: 0px 3px 0px rgba(0,0,0,0.2);
+}
+
+.path-frontpage h1 {
+  text-shadow: 0px 3px 0px rgba(0,0,0,0.2);
+}
+
+@media screen and (min-width: 500px) and (max-width: 767px) {
+  .path-frontpage .block-blockgroup {
+    padding: 30px;
+  }
+  .path-frontpage h2.block-title,
+  #block-followgroup h2,
+  #block-instagramgroup h2,
+  #block-showsgroup h2,
+  #block-twittergroup h2,
+  #block-facebookgroup h2 {
+    font-size: 28px;
+  }
+}
+
+@media screen and (max-width: 499px) {
+  .path-frontpage .block-blockgroup {
+    padding: 30px 15px;
+  }
+  .path-frontpage h2.block-title,
+  #block-followgroup h2,
+  #block-instagramgroup h2,
+  #block-showsgroup h2,
+  #block-twittergroup h2,
+  #block-facebookgroup h2 {
+    font-size: 22px;
+  }
+}
+
+
+
+/* Welcome */
+
+#block-homegroup {
+	padding-top: 180px;
+}
+
+#block-welcome .main-container .container {
+	padding-bottom: 0px !important;
+}
+
+
+
+/* Instagram */
+
+#block-simpleinstagramfeed {
+	max-width: 1140px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.instagram_gallery {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.instagram_gallery a {
+	outline: none;
+	margin: 0 10px 20px 10px;
+}
+
+.instagram_gallery img {
+	width: 170px;
+	height: 170px;
+	-webkit-border-radius: 7px;
+	-moz-border-radius: 7px;
+	border-radius: 7px;
+	border: 2px solid #fff;
+}
+
+.instagram_gallery a:hover img,
+.instagram_gallery a:focus img,
+.instagram_gallery a:active img {
+	border: 2px solid #c38aeb;
+}
+
+@media screen and (min-width: 380px) and (max-width: 499px) {
+	.instagram_gallery img {
+		width: 140px;
+		height: 140px;
+	}
+}
+
+@media screen and (max-width: 379px) {
+	.instagram_gallery a {
+		outline: none;
+		margin: 0 5px 10px 5px;
+	}
+	.instagram_gallery img {
+		width: 110px;
+		height: 110px;
+	}
+}
+
+
+
+/* Twitter block */
+#block-twittertimeline {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+
+
+/* Follow Durga social media buttons */
+
+#block-followgroup .field--name-body {
+  margin-bottom: 0;
+}
+
+.social-media-button-wrapper {
+	padding: 90px 0 0 0;
+}
+
+.social-media-button {
+	display: inline-block;
+}
+
+.social-media-button a,
+.social-media-button a:visited {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0 20px 40px 20px;
+	width: 100px;
+	height: 100px;
+	-webkit-border-radius: 7px;
+	-moz-border-radius: 7px;
+	border-radius: 7px;
+	border: 2px solid #fff;
+	color: #fff;
+	background-color: #845e9f;
+	text-decoration: none;
+	font-size: 48px;
+	line-height: 48px;
+}
+
+.social-media-button a:focus,
+.social-media-button a:hover,
+.social-media-button a:active {
+	background-color: #c38aeb;
+	text-decoration: none;
+}
+
+@media screen and (min-width: 1200px) {
+	.social-media-button-wrapper {
+		padding: 240px 0 0 0;
+	}
+}
+
+@media screen and (max-width: 499px) {
+	.social-media-button a {
+		margin: 0 10px 20px 10px;
+		width: 70px;
+		height: 70px;
+		font-size: 36px;
+		line-height: 36px;
+	}
+}
+

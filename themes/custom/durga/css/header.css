@@ -1,0 +1,35 @@
+.navbar-default {
+  background-color: #fff;
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	border-radius: 0;
+	border: none;
+	margin-bottom: 0;
+	min-height: 80px;
+	padding-top: 30px;
+}
+
+.navbar-header {
+	width: 100%;
+}
+
+.navbar-header .field--name-body {
+	margin-bottom: 0;
+}
+
+.navbar-nav {
+  display: inline-flex;
+  margin: 0;
+  width: 100%;
+  justify-content: center;
+}
+
+#block-title {
+	text-align: center;
+  font-family: 'Cinzel', serif;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 48px;
+  margin-bottom: 15px;
+  color: #1c1c1c;
+}
